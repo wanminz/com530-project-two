@@ -25,3 +25,8 @@ img {
   display: block;
   max-width: 100%;
 }
+
+.photo figcaption {
+  left: -10000px;
+  position: absolute;
+}
