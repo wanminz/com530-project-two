@@ -10,6 +10,8 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
    https://www.modularscale.com/?18&px&1.25
 */
 
+/* Base Styles */
+
 html {
   font-size: 1.125em; /* 18px / 16px = 1.125em */
   line-height: 1.2222222222em; /* 22px / 18px = 1.2222222222em */
@@ -27,11 +29,6 @@ h1 {
   padding-bottom: 0.6111111111em; /* 11px / 18px = 0.6111111111em */
 }
 
-img {
-  display: block;
-  max-width: 100%;
-}
-
 .photo figcaption {
   left: -10000px;
   position: absolute;
@@ -46,3 +43,14 @@ p {
   font-size: 0.8em; /* 14.4px / 18px = 0.8em */
   padding-top: 1.2222222222em; /* 22px / 18px = 1.2222222222em */
 }
+
+/* Responsive Media */
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+/* Layout */
+
+/* State Styles */
