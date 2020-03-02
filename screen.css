@@ -21,6 +21,12 @@ html {
   text-size-adjust: 100%;
 }
 
+h1 {
+  font-size: 1.953125em; /* 35.15625px / 18px = 1.953125em */
+  line-height: 1.2515555556em; /* 44px / 35.15625px = 1.2515555556em */
+  padding-bottom: 0.6111111111em; /* 11px / 18px = 0.6111111111em */
+}
+
 img {
   display: block;
   max-width: 100%;
@@ -29,6 +35,11 @@ img {
 .photo figcaption {
   left: -10000px;
   position: absolute;
+}
+
+p {
+  padding-top: 0.6111111111em; /* 11px / 18px = 0.6111111111em */
+  padding-bottom: 0.6111111111em; /* 11px / 18px = 0.6111111111em */
 }
 
 .copyright {
