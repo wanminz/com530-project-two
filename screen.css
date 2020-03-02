@@ -59,3 +59,43 @@ img {
 /* Layout */
 
 /* State Styles */
+
+/* 500px || 500 / 16 = 31.25em */
+@media screen and (min-width: 31.25em) {
+  #introduction {
+    display: flex;
+    justify-content: space-around;
+    background-color: green;
+    margin-bottom: 1.2222222222em;
+  }
+}
+
+/* 700px || 700 / 16 = 43.75em */
+@media screen and (min-width: 43.75em) {
+  .gallery {
+    display: flex;
+    flex-flow: wrap;
+  }
+
+  .images li {
+    width: 50%;
+    flex: 1 0 auto;
+    float: left;
+  }
+}
+
+/* 900px || 900 / 16 = 56.25em */
+@media screen and (min-width: 56.25em) {
+  html {
+    background-color: yellow;
+    padding: 3em;
+  }
+}
+
+/* 1100px || 1100 / 16 = 68.75em */
+@media screen and (min-width: 68.75em) {
+  html {
+    background-color: purple;
+    padding: 5em;
+  }
+}
