@@ -96,9 +96,6 @@ figcaption {
 /* 500px || 500 / 16 = 31.25em */
 @media screen and (min-width: 31.25em) {
   #introduction {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    background-color: green;
     margin-bottom: 1.2222222222em; /* 22px / 18px = 1.2222222222em */
   }
 
@@ -107,10 +104,25 @@ figcaption {
     text-align: center;
   }
 
+  img {
+    padding-top: 1.2222222222em; /* 22px / 18px = 1.2222222222em */
+    width: 100%;
+  }
+
   p {
     padding-left: 1.2222222222em; /* 22px / 18px = 1.2222222222em */
   }
 }
+
+/* 600px || 600 / 16 = 37.5em */
+@media screen and (min-width: 37.5em) {
+  #introduction {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin-bottom: 1.2222222222em; /* 22px / 18px = 1.2222222222em */
+  }
+}
+
 
 /* 700px || 700 / 16 = 43.75em */
 @media screen and (min-width: 43.75em) {
