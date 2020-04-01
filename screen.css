@@ -34,7 +34,8 @@ h2 {
   line-height: 1.4222222222em; /* 40px / 28.125px = 1.4222222222em */
 }
 
-.photo figcaption {
+.photo figcaption,
+.gallery figcaption {
   left: -10000px;
   position: absolute;
 }
