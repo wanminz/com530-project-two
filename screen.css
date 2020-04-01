@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Chonburi|Lora:400,400i,700|Major+Mono+Display&display=swap&subset=latin-ext');
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
@@ -24,7 +25,9 @@ html {
 }
 
 h1 {
-  font-size: 1.953125em; /* 35.15625px / 18px = 1.953125em */
+  font-size: 2.4413888889em; /* 43.945px / 18px = 2.44138888895em */
+  font-family: "Chonburi", "Lucida Serif", Lucida, "Liberation Serif", Georgia, serif;
+  text-transform: uppercase;
   line-height: 1.2515555556em; /* 44px / 35.15625px = 1.2515555556em */
   padding-bottom: 0.6111111111em; /* 11px / 18px = 0.6111111111em */
 }
@@ -32,6 +35,9 @@ h1 {
 h2 {
   font-size: 1.5625em; /* 28.125px / 18px = 1.5625em */
   line-height: 1.4222222222em; /* 40px / 28.125px = 1.4222222222em */
+  font-family: "Major Mono Display", "Lucida Console", "Lucida Sans Typewriter", "Courier New", Courier, monospace;
+  text-transform: lowercase;
+  padding-bottom: 0.6111111111em; /* 11px / 18px = 0.6111111111em */
 }
 
 .photo figcaption,
@@ -42,7 +48,8 @@ h2 {
 
 p {
   padding-top: 0.6111111111em; /* 11px / 18px = 0.6111111111em */
-  padding-bottom: 0.6111111111em; /* 11px / 18px = 0.6111111111em */
+  padding-bottom: 1.2222222222em; /* 22px / 18px = 1.2222222222em */
+  font-family: "Lora", Utopia, "Liberation Serif", Times, "Times New Roman", serif;
 }
 
 .copyright {
