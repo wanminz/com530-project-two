@@ -41,13 +41,8 @@ h2 {
   padding-bottom: 0.6111111111em; /* 11px / 18px = 0.6111111111em */
 }
 
-.photo figcaption,
-.gallery figcaption {
-  left: -10000px;
-  position: absolute;
-}
-
-p {
+p,
+figcaption {
   padding-top: 0.6111111111em; /* 11px / 18px = 0.6111111111em */
   padding-bottom: 1.2222222222em; /* 22px / 18px = 1.2222222222em */
   font-family: "Lora", Utopia, "Liberation Serif", Times, "Times New Roman", serif;
@@ -64,6 +59,22 @@ img {
   display: block;
   max-width: 100%;
 }
+
+.photo figcaption {
+  left: -10000px;
+  position: absolute;
+}
+
+.photo {
+  padding-bottom: 0.6111111111em; /* 11px / 18px = 0.6111111111em */
+}
+
+#interests {
+  padding: 1.2222222222em; /* 22px / 18px = 1.2222222222em */
+  background-color: black;
+  color: white;
+}
+
 
 /* Layout */
 
