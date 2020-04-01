@@ -86,7 +86,7 @@ img {
     display: grid;
     grid-template-columns: 1fr 2fr;
     background-color: green;
-    margin-bottom: 1.2222222222em;
+    margin-bottom: 1.2222222222em; /* 22px / 18px = 1.2222222222em */
   }
 
   #introduction h2 {
