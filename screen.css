@@ -36,14 +36,18 @@ h2 {
   font-size: 1.5625em; /* 28.125px / 18px = 1.5625em */
   line-height: 1.4222222222em; /* 40px / 28.125px = 1.4222222222em */
   text-transform: lowercase;
+}
+
+h1,
+h2 {
   padding-bottom: 0.6111111111em; /* 11px / 18px = 0.6111111111em */
   text-align: center;
 }
 
 p,
 figcaption {
-  padding-top: 0.6111111111em; /* 11px / 18px = 0.6111111111em */
   font-family: "Lora", Utopia, "Liberation Serif", Times, "Times New Roman", serif;
+  padding-top: 0.6111111111em; /* 11px / 18px = 0.6111111111em */
 }
 
 p {
@@ -72,23 +76,16 @@ img {
 }
 
 #interests {
-  padding: 1.2222222222em; /* 22px / 18px = 1.2222222222em */
   background-color: black;
   color: white;
-}
-
-li {
-  padding: 0.8em; /* 14.4px / 18px = 0.8em */
+  padding: 1.2222222222em; /* 22px / 18px = 1.2222222222em */
 }
 
 figcaption {
-  padding-bottom: 1.2222222222em; /* 22px / 18px = 1.2222222222em */
   font-size: 0.8em; /* 14.4px / 18px = 0.8em */
+  padding-bottom: 1.2222222222em; /* 22px / 18px = 1.2222222222em */
   text-align: center;
 }
-
-
-/* Layout */
 
 /* State Styles */
 
